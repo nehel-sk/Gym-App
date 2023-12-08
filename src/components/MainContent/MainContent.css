@@ -1,0 +1,71 @@
+.mainContent-01{
+    display: flex;
+    background-color: rgb(131, 0, 253);
+    height: max-content; 
+    padding: 11px; 
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+    color: white;
+}
+.mainContent-01 a{
+    color: White;
+}
+.mainContent-02{
+    height: max-content;
+    display: flex;
+}
+.mc-02-img{
+    width:50%;
+}
+.mc-02-img img{
+    width: 100%;
+    height: 100%;
+}
+.mc-02-content{
+    width:50%;
+}
+
+.mc-02-content{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(41, 18, 94);
+}
+.mc-02-content-div{
+    display:flex;
+    justify-content: center;
+    align-items: center; 
+    width:70%;
+    height: 70%;
+    
+}
+.element-container h1{
+    text-transform: uppercase;
+}
+.element-container h1 span{
+    color: aqua;
+}
+.span-button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.button-container{
+    width:100%;
+    height:100%;
+}
+.button-container02{
+    width:50%;
+    height:100%;
+}
+.element-button-div1{
+    
+    height: 39px;
+}
+.mc-02-content-div section{
+    background-color: blue;
+    
+}
+
+

@@ -1,25 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
+import MainContent from './components/MainContent/MainContent';
+import Main02 from './components/Main02/Main02';
+import FindGym from './Pages/FindGym';
+import Training from './Pages/Training'
+import Blog from './Pages/Blog'
+import WhyGym from './Pages/WhyGym'
+import OwnAGym from './Pages/OwnAGym'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+export default function App() {
+
+  return(
+    <>
+      <Header />
+      <MainContent />
+      <Main02 />
+      <Footer />
+    </>
   );
 }
-
-export default App;

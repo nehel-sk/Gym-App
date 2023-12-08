@@ -1,0 +1,47 @@
+.nav-container{
+    
+    display: flex;
+    background-color:rgb(49, 11, 110);
+    padding: 0%;
+    color: white;
+    height: 90px;
+    width: 100%;
+    position: fixed;
+    top:0%;
+    
+}
+.leftBox{
+   width:15%;
+   text-align: center;
+   padding: 14px;
+}
+.midBox{
+    width:80%;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navContent-float{
+    list-style-type: none;
+    width:50%;
+    padding:10px;
+    display: flex;
+    justify-content:space-evenly;
+    
+}
+.navContent-li{
+    margin: 10px;
+    font-weight: 600;
+    font-family: var(--br_regular_font);
+}
+.rightBox{
+    width:15%;
+    text-align: center;
+    padding: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
